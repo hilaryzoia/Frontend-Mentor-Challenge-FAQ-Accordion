@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: url('Image/background-pattern-desktop.svg') no-repeat;
+  background-color: hsl(275, 100%, 97%);
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.container {
+  max-width: 600px;
+  min-height: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+
+}
+.img-icon img {
+  margin-right: 20px;
+  float: left;
+  margin-left: 2rem;
+  width: 35px;
+  margin-top: 0.8rem;
+  
+}
+
+.img-icon h1 {
+  font-family: "Work Sans", sans-serif;
+  color: hsl(292, 42%, 14%);
+  padding-left: 1rem;
+  font-size: 50px;
+}
+
+button {
+  font-family: "Work Sans", sans-serif;
+  cursor:pointer;
+  background-color: transparent;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 0;
+
+}
+
+button:hover{
+  color:  purple;
+}
+
+.icons img {
+  margin-right: 3rem;
+}
+
+hr {
+  margin: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  opacity:20%;
+  padding-top: 0.5rem;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  color: hsl(292, 42%, 14%);
+  font-size: 16px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.faq-headline {
+  font-family: "Work Sans", sans-serif;
+  color: hsl(292, 42%, 14%);
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}
+
+.plus-icon {
+  display: block;
+}
+
+.minus-icon {
+  display: none;
+}
+
+.accordion-btn.active .plus-icon {
+  display: none; 
+}
+
+.accordion-btn.active .minus-icon {
+  display: block;
+}
+.btn-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-btn.active .btn-icon {
+  transform: rotate(45deg); 
+}
+/* Oculta o parágrafo inicialmente */
+.accordion-description {
+  display: none;
+}
+
+/* Classe para mostrar o parágrafo */
+.accordion-description.show {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
