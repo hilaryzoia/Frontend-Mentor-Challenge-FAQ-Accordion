@@ -9,8 +9,8 @@ body {
   background-color: hsl(275, 100%, 97%);
   box-sizing: border-box;
   background-size: contain;
-
 }
+
 body img {
   object-fit: cover;
   width: 100%;
@@ -29,6 +29,7 @@ body img {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
 
 }
+
 .img-icon img {
   margin-right: 20px;
   float: left;
