@@ -8,7 +8,7 @@ body {
   background: url(../Image/background-pattern-desktop.svg) no-repeat !important;
   background-color: hsl(275, 100%, 97%);
   box-sizing: border-box;
-  background-size: contain;
+  background-size: 100%;
 }
 
 .container {
