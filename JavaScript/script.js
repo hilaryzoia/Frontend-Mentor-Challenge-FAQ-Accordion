@@ -1,4 +1,5 @@
-// Seleciona todos os botões de accordion
+
+  // Seleciona todos os botões de accordion
 const accordionBtns = document.querySelectorAll('.accordion-btn');
 
 // Loop por cada botão
@@ -39,6 +40,17 @@ accordionBtns.forEach(btn => {
  
     
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
